@@ -5,6 +5,7 @@ Description
 ------------
 
 jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects.
+
 First edition created by Elsa de Alfonso in Barcelona in December 2021.
 
 
@@ -16,6 +17,7 @@ Instructions
 - Initialize plugin with command:
 
           $(window).loopXY();
+          
 - The layout element must have class "loopxy" and must be inside a container. Example:
 
           <body>
@@ -27,6 +29,7 @@ Instructions
               </div>
             </div>
           </body>
+          
 - Optionally you can differ the defaults by introducing new values in the initialization. Current default values are:
 
           $(window).loopXY({
