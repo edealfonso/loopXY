@@ -4,20 +4,13 @@
 Description
 ------------
 
-jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects (detailed below). In order to do this, the plugin creates replicas of the layout. The plugin is compatible with responsive layouts. An original idea of Miguel Angel Álvarez (maalvarezluque@gmail.com) developed by Elsa de Alfonso (elsa.de.alfonso@gmail.com).
-
-Feel free to contact me for suggestions and participation.
+jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects (detailed below). In order to do this, the plugin creates replicas of the layout. The plugin is compatible with responsive layouts. An original idea of Miguel Angel Álvarez (maalvarezluque@gmail.com) developed by Elsa de Alfonso (elsa.de.alfonso@gmail.com, feel free to contact me for suggestions or participation).
 
 Please consider donating if you use it: 
 https://www.paypal.com/donate/?business=9TUCX93RCG4NG&no_recurring=0&currency_code=EUR
 
-
-
 ### Version history
-- 1.0 First version, made in Barcelona in December 2021
-
-### Licensing
-MIT License
+- 1.0 First version (MIT License), made in Barcelona in December 2021
 
 
 
