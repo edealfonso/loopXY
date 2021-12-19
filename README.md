@@ -84,7 +84,7 @@ Next Steps
 Credits
 -------
 
-Developed by Elsa de Alfonso (elsa.de.alfonso@gmail.com), from an idea of Miguel Angel Álvarez (maalvarezluque@gmail.com). Feel free to contact me for suggestions or participation. 
+Developed by Elsa de Alfonso (elsa.de.alfonso@gmail.com), from an idea of Miguel Angel Álvarez (maalvarezluque@gmail.com). Feel free to contact Elsa for suggestions or participation. 
 
 Autoscroll in the edges of the window effect is based on This effect is based on [Ben Nadel](https://github.com/bennadel)'s "[Window Edge Scrolling](https://bennadel.github.io/JavaScript-Demos/demos/window-edge-scrolling/)" demo.
 
