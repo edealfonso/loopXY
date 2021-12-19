@@ -92,5 +92,5 @@ Next Steps
 ----------
 
 - Do not require placing the layout in a container
-- Set options to allow user to determine initial scroll position (now set to layout center)
+- Set an options to allow user to determine initial scroll position (now set to layout center)
 
