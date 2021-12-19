@@ -4,7 +4,8 @@
 Description
 ------------
 
-jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects created by Elsa de Alfonso in Barcelona.
+jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects.
+First edition created by Elsa de Alfonso in Barcelona in December 2021.
 
 
 
