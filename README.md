@@ -16,8 +16,7 @@ Instructions
 - Initialize plugin with command:
 
           $(window).loopXY();
-          
-- The layout element must have class "loopxy" and must be inside a container *(NEXT STEPS: do not require container)*. Example:
+- The layout element must have class "loopxy" and must be inside a container. Example:
 
           <body>
             <div class="container">
@@ -28,7 +27,6 @@ Instructions
               </div>
             </div>
           </body>
-
 - Optionally you can differ the defaults by introducing new values in the initialization. Current default values are:
 
           $(window).loopXY({
@@ -72,3 +70,9 @@ Animation and interaction description
 - Autoscroll in the edges of the movement can be activated with `autoScroll` option. This effect is based on: https://bennadel.github.io/JavaScript-Demos/demos/window-edge-scrolling/
 - The layout is also draggable with mouse.
 
+
+
+Next Steps
+----------
+
+- Do not require placing the layout in a container
