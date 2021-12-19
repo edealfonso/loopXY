@@ -7,6 +7,7 @@ Description
 jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects created by Elsa de Alfonso in Barcelona.
 
 
+
 Instructions
 ------------
 
@@ -18,13 +19,13 @@ Instructions
 - The layout element must have class "loopxy" and must be inside a container *(NEXT STEPS: do not require container)*. Example:
 
           <body>
-                    <div class="container">
-                              <div class="wrapper loopxy">
+            <div class="container">
+              <div class="wrapper loopxy">
 
-                                        <!-- Layout content goes here -->
+                <!-- Layout content goes here -->
 
-                              </div>
-                    </div>
+              </div>
+            </div>
           </body>
 
 - Optionally you can differ the defaults by introducing new values in the initialization. Current default values are:
@@ -57,6 +58,7 @@ Instructions
             hoverEffectSelector: '.image'
 
         });
+        
         
         
 Animation and interaction description
