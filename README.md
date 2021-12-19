@@ -73,6 +73,14 @@ Animation and interaction description
 
 
 
+Next Steps
+----------
+
+- Do not require placing the layout in a container
+- Set an options to allow user to determine initial scroll position (now set to layout center)
+
+
+
 Credits
 -------
 
@@ -80,15 +88,9 @@ Developed by Elsa de Alfonso (elsa.de.alfonso@gmail.com), from an idea of Miguel
 
 Autoscroll in the edges of the window effect is based on This effect is based on [Ben Nadel](https://github.com/bennadel)'s "[Window Edge Scrolling](https://bennadel.github.io/JavaScript-Demos/demos/window-edge-scrolling/) " demo.
 
-Licensed under **MIT License**
+Released under MIT License.
 
-Please consider [donating via PayPal](https://www.paypal.com/donate/?business=9TUCX93RCG4NG&no_recurring=0&currency_code=EUR) if you use this software.
+**Please consider [donating via PayPal](https://www.paypal.com/donate/?business=9TUCX93RCG4NG&no_recurring=0&currency_code=EUR) if you use this software.**
 
 
-
-Next Steps
-----------
-
-- Do not require placing the layout in a container
-- Set an options to allow user to determine initial scroll position (now set to layout center)
 
