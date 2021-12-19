@@ -68,7 +68,7 @@ Animation and interaction description
 
 - User can scroll the layout infinitelly in X and Y direction. *(The only exception is for iOS, where left-top direction reaches an end after scrolling 5 times the layout.)*
 - The layout is in constant movement, set by `DX` and `DY`.
-- That movement is altered as specified in `SLOWDOWN_FACTOR`, `SLOWDOWN_DURATION` and `SPEEDUP_DURATION` when hovering cert `hoverEffectSelector` class.
+- That movement is altered as specified in `SLOWDOWN_FACTOR`, `SLOWDOWN_DURATION` and `SPEEDUP_DURATION` when hovering elements selected in `hoverEffectSelector`.
 - Cursor movement makes the layout move slightly
 - Autoscroll in the edges of the movement can be activated with `autoScroll` option. This effect is based on: https://bennadel.github.io/JavaScript-Demos/demos/window-edge-scrolling/
 - The layout is also draggable with mouse.
