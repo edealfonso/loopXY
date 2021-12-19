@@ -1,5 +1,18 @@
-# loopXY
-jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects
+# loopxy.js
+//  __   _____ _____ ____ _  _ _  _     ____ ___
+// (  ) (  _  (  _  (  _ ( \/ ( \/ )   (_  _/ __)
+//  )(__ )(_)( )(_)( )___/)  ( \  /   .-_)( \__ \
+// (____(_____(_____(__) (_/\_)(__)   \____)(___/
+//                             by elsa de alfonso
+//
+//
+//               ~ Description ~
+//
+//  jQuery plugin to create a XY PSEUDO-INFINITE 
+//          experience with animations 
+//            and interaction effects
+//
+//                                Barcelona, 2021
 
 Instructions
 ------------
