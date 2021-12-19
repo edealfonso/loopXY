@@ -26,7 +26,7 @@
 
         var settings = $.extend({
 
-            // number of necessary replcias to cover viewport
+            // number of necessary replicas to cover viewport
             Y_REPLICAS: 1,
             X_REPLICAS: 1,
 
@@ -64,10 +64,6 @@
         var $main = $target.parent();
         $main.attr('id', "loopxy-container");
         var main = document.getElementById('loopxy-container');
-
-        // initial calculations of layout
-        var originalColumns = $(settings.layoutSelector).data('columns');
-        var originalRows = $(settings.layoutSelector).children().length / originalColumns;
 
         // initialization of vars
         var cursorPosX = 0; // so that we don't see the end of the container in any case
@@ -279,8 +275,8 @@
 
             if (!isIOS) {
 
-                var initialPosX = mainX/nX + 0.5*targetX/originalColumns - window.innerWidth/2;
-                var initialPosY = mainY/nY + 0.5*targetY/originalRows - window.innerHeight/2;
+                var initialPosX = mainX/nX + targetX/2 - window.innerWidth/2;
+                var initialPosY = mainY/nY + targetY/2 - window.innerHeight/2;
 
                 $main.animate({
                     scrollTop: initialPosY - targetX/2.5, // X on pupose
@@ -296,11 +292,11 @@
 
             } else {
 
-                var initialPosX = 5*mainX + 0.5*targetX/originalColumns - window.innerWidth/2;
-                var initialPosY = 5*mainY + 0.5*targetY/originalRows - window.innerHeight/2;
+                var initialPosX = 5*mainX + targetX/2 - window.innerWidth/2;
+                var initialPosY = 5*mainY + targetY/2 - window.innerHeight/2;
 
                 $main.animate({
-                    scrollTop: initialPosY - targetX/2.5, // X on pupose
+                    scrollTop: initialPosY - targetX/2.5, // adjust this as you desire
                     scrollLeft: initialPosX - targetX/2
                 }, 3000, 'swing');
 
@@ -309,7 +305,7 @@
                 },3000);
 
                 $main.animate({
-                    scrollTop: initialPosY + 0.33*targetY/nY, // correct translation in order to see initial pic a bit centered
+                    scrollTop: initialPosY + 0.33*targetY/nY, // adjust this as you desire
                     scrollLeft: initialPosX
                 }, 3000, 'swing');
             
@@ -330,7 +326,7 @@
         }
 
         // MAIN ANIMAITON
-        // ------------------------------
+        // --------------
         function updateLoopxy() {
 
             // recalc layout sizes (in case of screen resize)
