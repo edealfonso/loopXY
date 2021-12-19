@@ -4,7 +4,7 @@
 Description
 ------------
 
-jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects (detailed below). In order to do this, the plugin creates replicas of the layout. The plugin is compatible with responsive layouts. 
+jQuery plugin to create an **XY PSEUDO-INFINITE experience** with animations and interaction effects (detailed below). In order to do this, the plugin creates replicas of the layout. The plugin is compatible with responsive layouts. 
 
 
 
