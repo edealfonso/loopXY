@@ -1,18 +1,11 @@
 # loopxy.js
-//  __   _____ _____ ____ _  _ _  _     ____ ___
-// (  ) (  _  (  _  (  _ ( \/ ( \/ )   (_  _/ __)
-//  )(__ )(_)( )(_)( )___/)  ( \  /   .-_)( \__ \
-// (____(_____(_____(__) (_/\_)(__)   \____)(___/
-//                             by elsa de alfonso
-//
-//
-//               ~ Description ~
-//
-//  jQuery plugin to create a XY PSEUDO-INFINITE 
-//          experience with animations 
-//            and interaction effects
-//
-//                                Barcelona, 2021
+
+
+Description
+------------
+
+jQuery plugin to create a XY PSEUDO-INFINITE experience with animations and interaction effects created by Elsa de Alfonso in Barcelona.
+
 
 Instructions
 ------------
@@ -22,6 +15,18 @@ Instructions
 
           $(window).loopXY();
           
+- The layout element must have class "loopxy" and must be inside a container *(NEXT STEPS: do not require container)*. Example:
+
+          <body>
+                    <div class="container">
+                              <div class="wrapper loopxy">
+
+                                        <!-- Layout content goes here -->
+
+                              </div>
+                    </div>
+          </body>
+
 - Optionally you can differ the defaults by introducing new values in the initialization. Current default values are:
 
           $(window).loopXY({
@@ -30,10 +35,7 @@ Instructions
             Y_REPLICAS: 1,
             X_REPLICAS: 1,
 
-            // cursor movement effect quantity
-            CURSOR_FACTOR: 35,
-
-            // image movement normal speed (mPX / animation timestep)
+            // constant layout movement (mPX / animation timestep)
             DX: 0,
             DY: 400,
 
@@ -41,6 +43,9 @@ Instructions
             SLOWDOWN_FACTOR: 0.4, // factor
             SLOWDOWN_DURATION: 300, // ms
             SPEEDUP_DURATION: 1000, // ms
+            
+            // cursor movement effect quantity
+            CURSOR_FACTOR: 35,
 
             // autoscroll options
             autoScroll: false,
@@ -52,3 +57,15 @@ Instructions
             hoverEffectSelector: '.image'
 
         });
+        
+        
+Animation and interaction description
+-------------------------------------
+
+- User can scroll the layout infinitelly in X and Y direction. *(The only exception is for iOS, where left-top direction reaches an end after scrolling 5 times the layout.)*
+- The layout is in constant movement, set by `DX` and `DY`.
+- That movement is altered as specified in `SLOWDOWN_FACTOR`, `SLOWDOWN_DURATION` and `SPEEDUP_DURATION` when hovering cert `hoverEffectSelector` class.
+- Cursor movement makes the layout move slightly
+- Autoscroll in the edges of the movement can be activated with `autoScroll` option. This effect is based on: https://bennadel.github.io/JavaScript-Demos/demos/window-edge-scrolling/
+- The layout is also draggable with mouse.
+
